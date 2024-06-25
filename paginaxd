@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ME AMAS GABRIELA?</title>
+  <title>ME PERDONAS GABRIELA ?</title>
   <style>
     body {
       display: flex;
@@ -23,18 +23,23 @@
       font-size: 24px;
       font-weight: bold;
       color: #ff66b2; /* rosado */
+      margin-left: 90px;
     }
 
-    #btnYes, #btnNo {
+    #btnYes {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #btnNo {
       margin: 10px;
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
       position: absolute;
     }
- #btnYes {
-      left: 600px; /* Ajusta el valor según sea necesario */
-    }
+
   </style>
 </head>
 <body>
